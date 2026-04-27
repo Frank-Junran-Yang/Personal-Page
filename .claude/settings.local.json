@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/frank/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/ae6b0b39-21fd-4d5b-9909-624f8ee24cc7/4c803325-8b5a-43ec-8086-223aca1177ed/skills/docx/**)",
+      "Bash(pandoc --track-changes=all \"C:\\\\Users\\\\frank\\\\Downloads\\\\Junran_Yang_Updated_Resume.docx\" -o output.md)",
+      "Bash(python scripts/office/unpack.py \"C:\\\\Users\\\\frank\\\\Downloads\\\\Junran_Yang_Updated_Resume.docx\" unpacked_resume/)",
+      "Bash(python -c ' *)",
+      "Bash(gh repo *)",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('NAME:', d['name']\\); print\\('DESC:', d['description']\\); print\\('README:', d.get\\('readme',''\\)[:1500]\\)\")",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:hannahskyg.github.io)",
+      "mcp__Claude_Preview__preview_start",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:frank-junran-yang.github.io)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:3456/images/profile.jpg\")",
+      "WebFetch(domain:www.linkedin.com)"
+    ]
+  }
+}
