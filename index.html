@@ -444,41 +444,30 @@
     <h2 class="section-title">Technical <span>Skills</span></h2>
     <div class="skills-grid">
       <div class="skill-card">
-        <div class="skill-card-title">Languages</div>
+        <div class="skill-card-title">Programming</div>
         <div class="skill-tags">
           <span class="tag">Python</span>
           <span class="tag">R</span>
           <span class="tag">SQL</span>
           <span class="tag">Java</span>
-          <span class="tag">JavaScript</span>
         </div>
       </div>
       <div class="skill-card">
-        <div class="skill-card-title">Machine Learning &amp; AI</div>
-        <div class="skill-tags">
-          <span class="tag">PyTorch</span>
-          <span class="tag">CNNs</span>
-          <span class="tag">RNNs</span>
-          <span class="tag">Reinforcement Learning</span>
-          <span class="tag">Statistical Modeling</span>
-        </div>
-      </div>
-      <div class="skill-card">
-        <div class="skill-card-title">Data Analysis &amp; Processing</div>
+        <div class="skill-card-title">Libraries</div>
         <div class="skill-tags">
           <span class="tag">Pandas</span>
           <span class="tag">NumPy</span>
-          <span class="tag">Data Cleaning</span>
-          <span class="tag">Feature Engineering</span>
-          <span class="tag">Data Transformation</span>
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">PyTorch</span>
         </div>
       </div>
       <div class="skill-card">
-        <div class="skill-card-title">Data Engineering</div>
+        <div class="skill-card-title">Data Analysis &amp; Engineering</div>
         <div class="skill-tags">
+          <span class="tag">Statistical Inference</span>
+          <span class="tag">Data Cleaning</span>
+          <span class="tag">Feature Engineering</span>
           <span class="tag">Data Pipelines</span>
-          <span class="tag">Statistical Simulation</span>
-          <span class="tag">Experimental Design</span>
         </div>
       </div>
       <div class="skill-card">
@@ -486,15 +475,6 @@
         <div class="skill-tags">
           <span class="tag">PostgreSQL</span>
           <span class="tag">SQL Query Optimization</span>
-        </div>
-      </div>
-      <div class="skill-card">
-        <div class="skill-card-title">Tools &amp; Frameworks</div>
-        <div class="skill-tags">
-          <span class="tag">Next.js</span>
-          <span class="tag">HTML/CSS</span>
-          <span class="tag">Git</span>
-          <span class="tag">Jupyter</span>
         </div>
       </div>
     </div>
@@ -519,9 +499,10 @@
             <span class="timeline-date">Summer 2025</span>
           </div>
           <ul class="timeline-bullets">
-            <li>Assisted in collecting, curating, and preprocessing training data for reinforcement learning models.</li>
-            <li>Organized and transformed datasets to support efficient model training workflows.</li>
-            <li>Worked with PyTorch-based CNN and RNN architectures in research environments.</li>
+            <li>Built a data pipeline using Gymnasium to collect state–action–next-state trajectories for model training.</li>
+            <li>Implemented a PyTorch world model to predict dynamics and developed encoder networks for latent state representations.</li>
+            <li>Integrated a contrastive learning module by constructing state pairs to improve representation quality.</li>
+            <li>Ran experiments and debugged training instability by tuning loss weights, validating data flow, and analyzing prediction performance.</li>
           </ul>
         </div>
       </div>
@@ -537,9 +518,9 @@
             <span class="timeline-date">Summer 2024</span>
           </div>
           <ul class="timeline-bullets">
-            <li>Supported coordination of large-scale technical projects across teams.</li>
-            <li>Organized and validated datasets and project documentation.</li>
-            <li>Facilitated communication between engineers and external stakeholders.</li>
+            <li>Validated and cleaned structured datasets to support large-scale technical projects.</li>
+            <li>Coordinated cross-functional teams and translated technical requirements into documentation.</li>
+            <li>Assisted in organizing data workflows and maintaining project data consistency.</li>
           </ul>
         </div>
       </div>
@@ -564,15 +545,16 @@
         <div class="project-body">
           <h3 class="project-title">COVID-19 &amp; Household Wealth Inequality</h3>
           <p class="project-desc">
-            Interactive data visualization exploring how the COVID-19 pandemic affected U.S. household
-            net worth across gender, age, and education groups (2019–2022). Reveals that while nominal
-            wealth grew, inflation eroded gains — and the benefits were highly unequal.
+            Built an interactive data visualization to analyze household net worth trends across demographic
+            groups (2019–2022). Processed multi-source economic datasets with inflation adjustments to compare
+            real vs. nominal wealth. Designed dynamic D3.js visualizations revealing that while nominal wealth
+            rose post-pandemic, real gains were significantly reduced and unevenly distributed.
           </p>
           <div class="project-tech">
             <span class="project-tag">JavaScript</span>
             <span class="project-tag">D3.js</span>
-            <span class="project-tag">Jupyter</span>
             <span class="project-tag">HTML/CSS</span>
+            <span class="project-tag">Jupyter</span>
           </div>
           <div class="project-links">
             <a class="project-link project-link-gh" href="https://github.com/Frank-Junran-Yang/dsc106_final-project" target="_blank" rel="noopener">
@@ -595,15 +577,16 @@
         <div class="project-body">
           <h3 class="project-title">Recipe Nutrition &amp; Rating Analysis</h3>
           <p class="project-desc">
-            End-to-end data science project on 83K+ Food.com recipes. Built a calorie prediction model
-            achieving R² = 0.926, conducted permutation hypothesis testing, and performed fairness
-            analysis comparing ratings across meat vs. non-meat recipes.
+            Analyzed 83,000+ Food.com recipes to study relationships between nutrition features and user ratings.
+            Built regression models with cross-validation to predict calorie content, conducted permutation
+            hypothesis testing across meat vs. non-meat recipes, and performed bias analysis on rating
+            distributions. Engineered features and cleaned large-scale data using Pandas and NumPy.
           </p>
           <div class="project-tech">
             <span class="project-tag">Python</span>
             <span class="project-tag">Pandas</span>
+            <span class="project-tag">NumPy</span>
             <span class="project-tag">Scikit-learn</span>
-            <span class="project-tag">Linear Regression</span>
             <span class="project-tag">Cross-Validation</span>
           </div>
           <div class="project-links">
@@ -690,7 +673,7 @@
         <div class="edu-school">University of California San Diego</div>
         <div class="edu-degree">BS Data Science · BS Applied Mathematics</div>
         <div class="edu-meta">La Jolla, CA</div>
-        <div><span class="edu-gpa">GPA 3.80 · Provost Honors</span></div>
+        <div><span class="edu-gpa">GPA 3.80 · Provost Honors · USAMO Qualified</span></div>
       </div>
     </div>
 
